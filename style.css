@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#nav_bar{
+    height: 40px;
+    transition: 2ms;
+}
+a{  
+    margin-right: 200px;
+    text-decoration: none;
+    font-family: cursive;
+    transition: 3s;
+}
+a:hover{
+  color: pink;
+}
+
+
+#main_block{
+    height: 700px;
+    background-image: url("https://images.unsplash.com/photo-1533134486753-c833f0ed4866?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+
+}
+button{
+        height: 50px;
+        width: 100px;
+        background-color: orange;
+        margin: 15px 50px 20px 10px;
+        box-shadow: 5px 5px;
+        font-family: cursive;
+        animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+#pic{
+    background-image: url("girl.png");
+    background-size: cover;
+    height: 500px;
+    width: 370px;
+    position: absolute;
+    left: 950px;
+    bottom: 80px;
+    overflow: hidden;
+  	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+   	transform: translatey(0px);
+	  animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+.conc{
+  p{
+    position: absolute;
+    font-family: cursive;
+    left: 170px;
+    top: 250px;
+    font-size: 20px;
+    transition: 2s;
+}
+p:hover{
+  color: pink;
+}
+  h1{
+    position: absolute;
+    left: 130px;
+    top: 300px;
+    font-size: 50px;
+    font-family: cursive;
+    transition: all 2s;
+}
+  h1:hover{
+    color: pink;
+  }
+  h3{
+    position: absolute;
+    left: 180px;
+    top: 400px;
+    font-family: cursive;
+    transition: 2s;
+}
+h3:hover{
+  color: pink;
+}
+
+}
+.icons{
+  .a1{
+    position: absolute;
+    font-size: 30px;
+    left: 180px;
+    top: 450px;
+ }
+ .a2{
+    position: absolute;
+    font-size: 30px;
+    left: 250px;
+    top: 450px;
+ }
+ .a3{
+    position: absolute;
+    font-size: 30px;
+    left: 315px;
+    top: 450px;
+ }
+ .a4{
+    position: absolute;
+    font-size: 30px;
+    left: 380px;
+    top: 450px;
+ }
+}

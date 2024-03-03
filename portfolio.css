@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+#container4{
+    height: 1000px;
+    background-color: black;
+    background-image: url("bg8.avif");
+    background-size: cover;
+    
+}
+#nav_bar4{
+        height: 40px;
+        transition: 2ms;
+    }
+    a{  
+        margin-right: 200px;
+        text-decoration: none;
+        font-family: cursive;
+        transition: 3s;
+    }
+    a:hover{
+      color: pink;
+    }
+    button{
+        height: 50px;
+        width: 100px;
+        background-color: orange;
+        margin: 15px 50px 20px 10px;
+        box-shadow: 5px 5px;
+        font-family: cursive;
+        animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+.main_content3{
+  width: 40%;
+  padding: 40px;
+  background-color:#fff;
+}
+h1{
+  text-shadow: 15px;
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+.box2{
+  height: 270px;
+  width:510px;
+  position: absolute;
+  left: 150px;
+  bottom: 200px;
+  background-image: url("b10.jpeg");
+  background-size: cover;
+  border: 10px solid #555;
+}
+.text1{
+  width: 120px;
+  height: 40px;
+  border-radius: 35%;
+  position: relative;
+  left: 900px;
+  top:200px;
+  background-color: #e38080;
+
+  h3{
+    text-align: center;
+    position: relative;
+    bottom: -6px;
+  }
+}
+.text2{
+  position: absolute;
+  top: 350px;
+  left: 900px;
+  h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h3{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+  }
+}
+.box3{
+height: 270px;
+width:510px;
+position: absolute;
+left: 900px;
+top: 600px;
+background-image: url("b11.jpg");
+background-size: cover;
+border: 10px solid #555;
+}
+.text3{
+  width: 120px;
+  height: 40px;
+  border-radius: 35%;
+  position: relative;
+  left: 150px;
+  top: 500px;
+  background-color: #e38080;
+
+  h3{
+    text-align: center;
+    position: relative;
+    bottom: -6px;
+  }
+}
+.text4{
+  position: absolute;
+  left: 150px;
+  top: 690px;
+  h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h3{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+  }
+}
